@@ -5,7 +5,7 @@ public abstract class Pickup : MonoBehaviour
     [SerializeField] float rotationSpeed = 100f;
     const string PLAYER_STRING = "Player";
 
-    protected abstract void OnPickUp(ActiveWeapon activeWeapon);
+    protected abstract void OnPickUp(OwnedWeapon activeWeapon);
 
     void Update()
     {
@@ -16,7 +16,7 @@ public abstract class Pickup : MonoBehaviour
     {
         if (other.gameObject.CompareTag(PLAYER_STRING))
         {
-            ActiveWeapon activeWeapon = other.gameObject.GetComponentInChildren<ActiveWeapon>();
+            OwnedWeapon activeWeapon = other.gameObject.GetComponentInChildren<OwnedWeapon>();
             OnPickUp(activeWeapon);
             Destroy(this.gameObject);
         }

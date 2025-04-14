@@ -13,4 +13,5 @@ public class WeaponSO : ScriptableObject
     public float ZoomRotationSpeed = .3f;
     public int MagazineSize = 12;
     public float hitStopDuration = 0.05f;
+    public int inventoryIndex = 0;
 }

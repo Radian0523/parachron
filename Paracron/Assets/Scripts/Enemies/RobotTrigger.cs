@@ -3,6 +3,7 @@ using UnityEngine;
 public class RobotTrigger : MonoBehaviour
 {
     [SerializeField] Robot[] robots;
+    bool passedThrough;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -14,11 +15,13 @@ public class RobotTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        if (passedThrough) return;
         if (other.transform.CompareTag("Player"))
         {
+            passedThrough = true;
             foreach (Robot robot in robots)
             {
-                robot.OnStartChase();
+                robot?.OnStartChase();
             }
         }
     }

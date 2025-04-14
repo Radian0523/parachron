@@ -1,9 +1,8 @@
 using Cinemachine;
 using StarterAssets;
-using TMPro;
 using UnityEngine;
 
-public class ActiveWeapon : MonoBehaviour
+public class OwnedWeapon : MonoBehaviour
 {
     public enum WeaponState
     {
@@ -14,9 +13,10 @@ public class ActiveWeapon : MonoBehaviour
     [SerializeField] CinemachineVirtualCamera cinemachineCamera;
     [SerializeField] Camera overlayWeaponCamera;
     [SerializeField] GameObject zoomVignette;
-    [SerializeField] TMP_Text ammoText;
 
     WeaponSO currentWeaponSO;
+    AmmoController ammoController;
+    Inventory inventory;
     FirstPersonController firstPersonController;
     Animator animator;
     StarterAssetsInputs starterAssetsInputs;
@@ -28,9 +28,12 @@ public class ActiveWeapon : MonoBehaviour
     bool isZoomingIn = false;
     float defaultFOV;
     float defaultRotationSpeed;
-    int currentAmmo;
 
     const string SHOOT_STRING = "Shoot";
+
+    public WeaponSO CurrentWeaponSO => currentWeaponSO;
+    public AmmoController AmmmController => ammoController;
+    public Inventory Inventory => inventory;
 
 
 
@@ -40,6 +43,9 @@ public class ActiveWeapon : MonoBehaviour
         starterAssetsInputs = GetComponentInParent<StarterAssetsInputs>();
         firstPersonController = GetComponentInParent<FirstPersonController>();
         animator = GetComponent<Animator>();
+        ammoController = GetComponent<AmmoController>();
+        inventory = GetComponent<Inventory>();
+
         defaultFOV = cinemachineCamera.m_Lens.FieldOfView;
         currentState = WeaponState.Idle;
         defaultRotationSpeed = firstPersonController.RotationSpeed;
@@ -47,7 +53,8 @@ public class ActiveWeapon : MonoBehaviour
 
     void Start()
     {
-        SwitchWeapon(startingWeapon);
+        inventory.AddItem(currentWeaponSO);
+        // SwitchWeapon(startingWeapon);
     }
     void Update()
     {
@@ -55,20 +62,14 @@ public class ActiveWeapon : MonoBehaviour
         HandleZoom();
     }
 
-    public void AdjustAmmo(int amount)
-    {
-        currentAmmo = Mathf.Min(currentAmmo + amount, currentWeaponSO.MagazineSize);
-        ammoText.text = currentAmmo.ToString("D2");
-    }
-
     void HandleShoot()
     {
         switch (currentState)
         {
             case WeaponState.Idle:
-                if (!starterAssetsInputs.shoot || currentAmmo <= 0) return;
+                if (!starterAssetsInputs.shoot || ammoController.CurrentAmmo <= 0) return;
                 currentWeapon.Shoot(currentWeaponSO);
-                AdjustAmmo(-1);
+                ammoController.AdjustAmmo(-1);
                 animator.Play(SHOOT_STRING, 0, 0f);
                 currentState = WeaponState.Firing;
                 break;
@@ -85,6 +86,11 @@ public class ActiveWeapon : MonoBehaviour
         }
     }
 
+    public void OnGetWeapon(WeaponSO weaponSO)
+    {
+
+    }
+
     public void SwitchWeapon(WeaponSO weaponSO)
     {
         Debug.Log(weaponSO.name);
@@ -96,7 +102,7 @@ public class ActiveWeapon : MonoBehaviour
         Weapon newWeapon = Instantiate(weaponSO.weaponPrefab, this.gameObject.transform).GetComponent<Weapon>();
         currentWeapon = newWeapon;
         this.currentWeaponSO = weaponSO;
-        AdjustAmmo(currentWeaponSO.MagazineSize);
+        ammoController.AdjustAmmo(currentWeaponSO.MagazineSize);
         ZoomOut();
     }
 

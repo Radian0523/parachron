@@ -21,3 +21,5 @@ MonoBehaviour:
   ZoomAmount: 10
   ZoomRotationSpeed: 0.3
   MagazineSize: 48
+  hitStopDuration: 0.05
+  inventoryIndex: 1
