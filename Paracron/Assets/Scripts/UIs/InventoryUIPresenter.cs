@@ -4,7 +4,7 @@ public class InventoryUIPresenter : MonoBehaviour
 {
     [SerializeField] Transform[] inventorySlots;
     [SerializeField] GameObject[] weaponRawImagesPrefab;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
     void Start()
     {
 
