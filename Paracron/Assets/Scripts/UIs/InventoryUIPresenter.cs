@@ -6,6 +6,7 @@ public class InventoryUIPresenter : MonoBehaviour
     [SerializeField] Inventory inventory;
     [SerializeField] Transform[] inventorySlots;
     [SerializeField] GameObject[] weaponRawImagesPrefab;
+    [SerializeField] Transform selectedFrame;
     [SerializeField] TMP_Text magazineAmmoText;
     [SerializeField] TMP_Text reserveAmmoText;
 
@@ -36,6 +37,11 @@ public class InventoryUIPresenter : MonoBehaviour
         GameObject.Instantiate(weaponRawImagesPrefab[weaponSO.inventoryIndex], inventorySlots[weaponSO.inventoryIndex]);
     }
 
+    public void OnSwitchWeapon(int nextWeaponIndex)
+    {
+        UpdateMagazineAmmoText(nextWeaponIndex);
+    }
+
     private void UpdateReserveAmmoText()
     {
         reserveAmmoText.text = inventory.ReserveAmmo.ToString("D3");
@@ -43,7 +49,15 @@ public class InventoryUIPresenter : MonoBehaviour
 
     private void UpdateMagazineAmmoText(int weaponInventoryIndex)
     {
-        magazineAmmoText.text = inventory.MagazineAmmo[weaponInventoryIndex].ToString("D2");
+        magazineAmmoText.text = inventory.MagazineAmmo(weaponInventoryIndex).ToString("D2");
     }
+
+    public int InventoryCount => inventorySlots.Length;
+
+    public void ChangeSelectedCursor(int nextWeaponIndex)
+    {
+        selectedFrame.position = inventorySlots[nextWeaponIndex].position;
+    }
+
 
 }

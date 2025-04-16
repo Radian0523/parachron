@@ -8,7 +8,8 @@ public class Inventory : MonoBehaviour
     [SerializeField] InventoryUIPresenter inventoryUIPresenter;
 
     HashSet<string> items = new();
-    int[] magazineAmmo;
+    // int[] magazineAmmo;
+    Dictionary<int, int> magazineAmmo = new();
     int reserveAmmo = 0;
 
 
@@ -16,7 +17,8 @@ public class Inventory : MonoBehaviour
     EquippedWeapon equippedWeapon;
 
     public int ReserveAmmo => reserveAmmo;
-    public int[] MagazineAmmo => magazineAmmo;
+    public int MagazineAmmo(int weaponInventoryIndex) => magazineAmmo.ContainsKey(weaponInventoryIndex) ? magazineAmmo[weaponInventoryIndex] : 0;
+
 
     void Awake()
     {
@@ -46,6 +48,10 @@ public class Inventory : MonoBehaviour
 
     public void AdjustMagazineAmmo(int weaponInventoryIndex, int amount)
     {
+        if (!magazineAmmo.ContainsKey(weaponInventoryIndex))
+        {
+            magazineAmmo[weaponInventoryIndex] = 0; // 最初の最初だけ初期化
+        }
         magazineAmmo[weaponInventoryIndex] = Mathf.Min(magazineAmmo[weaponInventoryIndex] + amount, equippedWeapon.CurrentWeaponSO.MagazineSize);
         inventoryUIPresenter.OnAdjustMagazineAmmo(weaponInventoryIndex);
     }

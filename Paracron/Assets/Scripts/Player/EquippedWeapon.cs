@@ -4,7 +4,7 @@ using Cinemachine;
 
 public class EquippedWeapon : MonoBehaviour
 {
-    // [SerializeField] WeaponSO startingWeapon;
+    [SerializeField] WeaponSO[] emptyWeaponSOs;
     [SerializeField] Camera overlayWeaponCamera;
     [SerializeField] CinemachineVirtualCamera cinemachineCamera;
     [SerializeField] GameObject zoomVignette;
@@ -17,6 +17,7 @@ public class EquippedWeapon : MonoBehaviour
     Weapon currentWeapon;
     WeaponSO currentWeaponSO;
     Animator animator;
+    OwnedWeapon ownedWeapon;
 
 
     bool isZoomingIn = false;
@@ -27,6 +28,7 @@ public class EquippedWeapon : MonoBehaviour
 
     const string SHOOT_STRING = "Shoot";
 
+    public WeaponSO[] EmptyWeaponSOs => emptyWeaponSOs;
     public Weapon CurrentWeapon => currentWeapon;
     public WeaponSO CurrentWeaponSO => currentWeaponSO;
 
@@ -41,6 +43,7 @@ public class EquippedWeapon : MonoBehaviour
     {
         starterAssetsInputs = GetComponentInParent<StarterAssetsInputs>();
         firstPersonController = GetComponentInParent<FirstPersonController>();
+        ownedWeapon = GetComponent<OwnedWeapon>();
         inventory = GetComponent<Inventory>();
         animator = GetComponent<Animator>();
 
@@ -51,12 +54,13 @@ public class EquippedWeapon : MonoBehaviour
 
     void Start()
     {
+        currentWeaponSO = emptyWeaponSOs[0];
     }
 
     void Update()
     {
-        // HandleShoot();
-        // HandleZoom();
+        HandleShoot();
+        HandleZoom();
     }
 
     void HandleShoot()
@@ -101,7 +105,6 @@ public class EquippedWeapon : MonoBehaviour
 
     private void ZoomIn()
     {
-        Debug.Log("Zooming in");
         isZoomingIn = true;
         starterAssetsInputs.ZoomInput(false);
         cinemachineCamera.m_Lens.FieldOfView = currentWeaponSO.ZoomAmount;
@@ -112,7 +115,6 @@ public class EquippedWeapon : MonoBehaviour
 
     private void ZoomOut()
     {
-        Debug.Log("Not zooming in");
         isZoomingIn = false;
         starterAssetsInputs.ZoomInput(false);
         cinemachineCamera.m_Lens.FieldOfView = defaultFOV;
@@ -121,9 +123,12 @@ public class EquippedWeapon : MonoBehaviour
         firstPersonController.ChangeRotationSpeed(defaultRotationSpeed);
     }
 
-    public void OnSwitchWeapon(Weapon newWeapon)
+    public void OnSwitchWeapon(int weaponInventoryIndex)
     {
+        Weapon newWeapon = ownedWeapon.weaponType(weaponInventoryIndex).gameObject.GetComponent<Weapon>();
+        WeaponSO newWeaponSO = ownedWeapon.weaponType(weaponInventoryIndex).weaponSO;
         currentWeapon = newWeapon;
+        currentWeaponSO = newWeaponSO;
         ZoomOut();
     }
 }
