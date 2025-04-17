@@ -68,7 +68,7 @@ public class EquippedWeapon : MonoBehaviour
         switch (currentState)
         {
             case WeaponState.Idle:
-                if (!starterAssetsInputs.shoot || inventory.ReserveAmmo <= 0) return;
+                if (!starterAssetsInputs.shoot || inventory.MagazineAmmo(currentWeaponSO.inventoryIndex) <= 0) return;
                 currentWeapon.Shoot(currentWeaponSO);
                 inventory.AdjustMagazineAmmo(currentWeaponSO.inventoryIndex, -1);
                 animator.Play(SHOOT_STRING, 0, 0f);
