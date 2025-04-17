@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using StarterAssets;
 using UnityEngine;
 
-public class WeaponType
+public class OwnedWeaponData
 {
     public GameObject gameObject;
     public WeaponSO weaponSO;
@@ -18,30 +18,28 @@ public class OwnedWeapon : MonoBehaviour
     [SerializeField] float changeWeaponTime = 0.2f;
     [SerializeField] float unusedWeaponDistance = 0.2f;
 
+    StarterAssetsInputs starterAssetsInputs;
     Inventory inventory;
     EquippedWeapon equippedWeapon;
-    StarterAssetsInputs starterAssetsInputs;
 
     // Weapon currentWeapon;
-    Dictionary<int, WeaponType> ownedWeapons = new();
+    Dictionary<int, OwnedWeaponData> ownedWeapons = new();
 
     public Inventory Inventory => inventory;
-
-    public WeaponType weaponType(int weaponInventoryIndex) => ownedWeapons.ContainsKey(weaponInventoryIndex) ? ownedWeapons[weaponInventoryIndex] : null;
-
+    public OwnedWeaponData OwnedWeaponData(int weaponInventoryIndex) => ownedWeapons.ContainsKey(weaponInventoryIndex) ? ownedWeapons[weaponInventoryIndex] : null;
 
 
     void Awake()
     {
-        starterAssetsInputs = GetComponentInParent<StarterAssetsInputs>();
         // 親の中から、StarterAssetsInputsをコンポーネントに持つオブジェクトを一つ取ってきて入れる
+        starterAssetsInputs = GetComponentInParent<StarterAssetsInputs>();
         inventory = GetComponent<Inventory>();
         equippedWeapon = GetComponent<EquippedWeapon>();
     }
 
     void Start()
     {
-        // Dix の初期化
+        // Dix の初期化 (全インベントリにEmptyWeaponを持たせる)
         for (int i = 0; i < inventoryUIPresenter.InventoryCount; i++)
         {
             ownedWeapons[i] = new();
@@ -49,8 +47,6 @@ public class OwnedWeapon : MonoBehaviour
             ownedWeapons[i].weaponSO = equippedWeapon.EmptyWeaponSOs[i];
             ownedWeapons[i].alreadyWeaponCreated = false;
         }
-        // inventory.AddItem(equippedWeapon.CurrentWeaponSO);
-        // SwitchWeapon(startingWeapon);
     }
     void Update()
     {
@@ -69,22 +65,25 @@ public class OwnedWeapon : MonoBehaviour
             int nextWeaponIndex = equippedWeapon.CurrentWeaponSO.inventoryIndex - 1;
             if (nextWeaponIndex == -1) nextWeaponIndex = inventoryUIPresenter.InventoryCount - 1;
             SwitchWeapon(nextWeaponIndex);
-            inventoryUIPresenter.ChangeSelectedCursor(nextWeaponIndex);
         }
         else
         {
             int nextWeaponIndex = equippedWeapon.CurrentWeaponSO.inventoryIndex + 1;
             if (nextWeaponIndex == inventoryUIPresenter.InventoryCount) nextWeaponIndex = 0;
             SwitchWeapon(nextWeaponIndex);
-            inventoryUIPresenter.ChangeSelectedCursor(nextWeaponIndex);
-
         }
 
     }
 
+    private void DeleteWeapon(WeaponSO weaponSO)
+    {
+        inventory.RemoveItem(weaponSO);
+        Destroy(ownedWeapons[weaponSO.inventoryIndex].gameObject); // Empty Weapon を破壊
+    }
 
 
-    public void OnGetWeapon(WeaponSO weaponSO)
+
+    public void OnPickupWeapon(WeaponSO weaponSO)
     {
         if (ownedWeapons[weaponSO.inventoryIndex].alreadyWeaponCreated == true)
         {
@@ -92,29 +91,36 @@ public class OwnedWeapon : MonoBehaviour
             inventory.AdjustReserveAmmo(weaponSO.MagazineSize);
             return;
         }
-        ownedWeapons[weaponSO.inventoryIndex].weaponSO = weaponSO;
-        Destroy(ownedWeapons[weaponSO.inventoryIndex].gameObject); // Empty Weapon を破壊
-        ownedWeapons[weaponSO.inventoryIndex].gameObject = Instantiate(weaponSO.weaponPrefab, /* nonEquippedWeaponPos.transform.position, nonEquippedWeaponPos.transform.rotation, */ this.transform);
-        ownedWeapons[weaponSO.inventoryIndex].alreadyWeaponCreated = true;
+        DeleteWeapon(weaponSO);
+        CreateNewWeapon(weaponSO);
+        // Weaponを、少し下の位置におく
         GameObject weaponGameObj = ownedWeapons[weaponSO.inventoryIndex].gameObject;
-        Vector3 weaponStartingPos = new Vector3(weaponGameObj.transform.localPosition.x, weaponGameObj.transform.localPosition.y - 0.35f, weaponGameObj.transform.localPosition.z);
+        Vector3 weaponStartingPos = new Vector3(weaponGameObj.transform.localPosition.x, weaponGameObj.transform.localPosition.y - unusedWeaponDistance, weaponGameObj.transform.localPosition.z);
         ownedWeapons[weaponSO.inventoryIndex].gameObject.transform.localPosition = weaponStartingPos;
-        inventoryUIPresenter.ChangeSelectedCursor(weaponSO.inventoryIndex);
+        // 持ち替える
         SwitchWeapon(weaponSO.inventoryIndex);
+        // 落ちてる武器にはすでにMagazineは満杯
         inventory.AdjustMagazineAmmo(weaponSO.inventoryIndex, weaponSO.MagazineSize);
-        Weapon newWeapon = ownedWeapons[weaponSO.inventoryIndex].gameObject.GetComponent<Weapon>();
+    }
+
+    private void CreateNewWeapon(WeaponSO weaponSO)
+    {
+        ownedWeapons[weaponSO.inventoryIndex].weaponSO = weaponSO;
+        ownedWeapons[weaponSO.inventoryIndex].gameObject = Instantiate(weaponSO.weaponPrefab, this.transform);
+        ownedWeapons[weaponSO.inventoryIndex].alreadyWeaponCreated = true;
     }
 
     public void SwitchWeapon(int newWeaponInventoryIndex)
     {
         WeaponSO newWeaponSO = ownedWeapons[newWeaponInventoryIndex].weaponSO;
+
         StopAllCoroutines();
         if (equippedWeapon.CurrentWeapon)
             StartCoroutine(ChangeWeaponRoutine(equippedWeapon.CurrentWeaponSO.inventoryIndex, false));
         StartCoroutine(ChangeWeaponRoutine(newWeaponSO.inventoryIndex, true));
 
         inventoryUIPresenter.OnSwitchWeapon(newWeaponInventoryIndex);
-        equippedWeapon.OnSwitchWeapon(newWeaponInventoryIndex);
+        equippedWeapon.UpdateCurrentWeapon(newWeaponInventoryIndex);
     }
 
 

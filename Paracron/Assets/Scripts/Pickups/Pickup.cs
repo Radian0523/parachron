@@ -16,8 +16,8 @@ public abstract class Pickup : MonoBehaviour
     {
         if (other.gameObject.CompareTag(PLAYER_STRING))
         {
-            OwnedWeapon activeWeapon = other.gameObject.GetComponentInChildren<OwnedWeapon>();
-            OnPickUp(activeWeapon);
+            OwnedWeapon ownedWeapon = other.gameObject.GetComponentInChildren<OwnedWeapon>();
+            OnPickUp(ownedWeapon);
             Destroy(this.gameObject);
         }
     }

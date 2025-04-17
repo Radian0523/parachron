@@ -40,6 +40,7 @@ public class InventoryUIPresenter : MonoBehaviour
     public void OnSwitchWeapon(int nextWeaponIndex)
     {
         UpdateMagazineAmmoText(nextWeaponIndex);
+        ChangeSelectedCursor(nextWeaponIndex);
     }
 
     private void UpdateReserveAmmoText()
@@ -54,7 +55,7 @@ public class InventoryUIPresenter : MonoBehaviour
 
     public int InventoryCount => inventorySlots.Length;
 
-    public void ChangeSelectedCursor(int nextWeaponIndex)
+    private void ChangeSelectedCursor(int nextWeaponIndex)
     {
         selectedFrame.position = inventorySlots[nextWeaponIndex].position;
     }

@@ -1,10 +1,11 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class RobotTrigger : MonoBehaviour
 {
-    [SerializeField] Robot[] robots;
+    [SerializeField] List<Robot> robots;
     bool passedThrough;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
     void Start()
     {
         foreach (Robot robot in robots)
@@ -21,7 +22,9 @@ public class RobotTrigger : MonoBehaviour
             passedThrough = true;
             foreach (Robot robot in robots)
             {
-                robot?.OnStartChase();
+                if (!robot) return;
+                if (!robot.gameObject) return;
+                robot.OnStartChase();
             }
         }
     }

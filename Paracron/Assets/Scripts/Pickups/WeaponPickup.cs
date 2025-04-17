@@ -8,9 +8,10 @@ public class WeaponPickup : Pickup
     {
     }
 
-    protected override void OnPickUp(OwnedWeapon activeWeapon)
+    protected override void OnPickUp(OwnedWeapon ownedWeapon)
     {
-        activeWeapon.Inventory.AddItem(weaponSO);
+        ownedWeapon.Inventory.AddItem(weaponSO);
+        ownedWeapon.OnPickupWeapon(weaponSO);
         // activeWeapon.SwitchWeapon(weaponSO);
     }
 

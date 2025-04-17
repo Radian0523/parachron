@@ -8,7 +8,6 @@ public class Inventory : MonoBehaviour
     [SerializeField] InventoryUIPresenter inventoryUIPresenter;
 
     HashSet<string> items = new();
-    // int[] magazineAmmo;
     Dictionary<int, int> magazineAmmo = new();
     int reserveAmmo = 0;
 
@@ -33,12 +32,14 @@ public class Inventory : MonoBehaviour
     {
         items.Add(weaponSO.name);
         inventoryUIPresenter.OnGetWeapon(weaponSO);
-        ownedWeapon.OnGetWeapon(weaponSO);
     }
 
     public void RemoveItem(WeaponSO weaponSO)
     {
-        items.Remove(weaponSO.name);
+        if (HasItem(weaponSO))
+            items.Remove(weaponSO.name);
+        else
+            Debug.Log(weaponSO.name + "はInventoryにありませんえん二千円");
     }
 
     public bool HasItem(WeaponSO weaponSO)

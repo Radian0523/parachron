@@ -123,10 +123,10 @@ public class EquippedWeapon : MonoBehaviour
         firstPersonController.ChangeRotationSpeed(defaultRotationSpeed);
     }
 
-    public void OnSwitchWeapon(int weaponInventoryIndex)
+    public void UpdateCurrentWeapon(int weaponInventoryIndex)
     {
-        Weapon newWeapon = ownedWeapon.weaponType(weaponInventoryIndex).gameObject.GetComponent<Weapon>();
-        WeaponSO newWeaponSO = ownedWeapon.weaponType(weaponInventoryIndex).weaponSO;
+        Weapon newWeapon = ownedWeapon.OwnedWeaponData(weaponInventoryIndex).gameObject.GetComponent<Weapon>();
+        WeaponSO newWeaponSO = ownedWeapon.OwnedWeaponData(weaponInventoryIndex).weaponSO;
         currentWeapon = newWeapon;
         currentWeaponSO = newWeaponSO;
         ZoomOut();
