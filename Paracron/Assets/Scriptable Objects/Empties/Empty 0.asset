@@ -15,6 +15,7 @@ MonoBehaviour:
   weaponPrefab: {fileID: 5459268012953422422, guid: ee564826604e0e6449df560b8b395d1f, type: 3}
   Damage: 0
   FireRate: 0
+  ReloadRate: 0
   HitVFXPrefab: {fileID: 0}
   IsAutomatic: 0
   CanZoom: 0

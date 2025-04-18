@@ -15,6 +15,7 @@ namespace StarterAssets
 		public bool sprint;
 		public bool shoot;
 		public bool zoom;
+		public bool reload;
 
 		[Header("Movement Settings")]
 		public bool analogMovement;
@@ -66,6 +67,11 @@ namespace StarterAssets
 		{
 			ZoomInput(value.isPressed);
 		}
+
+		public void OnReload(InputValue value)
+		{
+			ReloadInput(value.isPressed);
+		}
 #endif
 
 
@@ -102,6 +108,11 @@ namespace StarterAssets
 		public void ZoomInput(bool newZoomState)
 		{
 			zoom = newZoomState;
+		}
+
+		public void ReloadInput(bool newReloadState)
+		{
+			reload = newReloadState;
 		}
 
 		private void OnApplicationFocus(bool hasFocus)

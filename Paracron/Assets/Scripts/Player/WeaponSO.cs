@@ -6,6 +6,7 @@ public class WeaponSO : ScriptableObject
     public GameObject weaponPrefab;
     public int Damage = 1;
     public float FireRate = .5f;
+    public float ReloadRate = 1f;
     public GameObject HitVFXPrefab;
     public bool IsAutomatic = false;
     public bool CanZoom = false;

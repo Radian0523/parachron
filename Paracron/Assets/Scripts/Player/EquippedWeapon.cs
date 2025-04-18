@@ -23,6 +23,7 @@ public class EquippedWeapon : MonoBehaviour
     bool isZoomingIn = false;
 
     float timeSinceLastShot = 0f;
+    float timeSinceStartReload = 0f;
     float defaultFOV;
     float defaultRotationSpeed;
 
@@ -37,6 +38,7 @@ public class EquippedWeapon : MonoBehaviour
     {
         Idle,
         Firing,
+        Reload,
     }
 
     void Awake()
@@ -68,6 +70,11 @@ public class EquippedWeapon : MonoBehaviour
         switch (currentState)
         {
             case WeaponState.Idle:
+                if (starterAssetsInputs.reload)
+                {
+                    currentState = WeaponState.Reload; currentState = WeaponState.Reload;
+                    break;
+                }
                 if (!starterAssetsInputs.shoot || inventory.MagazineAmmo(currentWeaponSO.inventoryIndex) <= 0) return;
                 currentWeapon.Shoot(currentWeaponSO);
                 inventory.AdjustMagazineAmmo(currentWeaponSO.inventoryIndex, -1);
@@ -82,6 +89,16 @@ public class EquippedWeapon : MonoBehaviour
                     currentState = WeaponState.Idle;
                     if (currentWeaponSO.IsAutomatic) break;
                     starterAssetsInputs.ShootInput(false);
+                }
+                break;
+            case WeaponState.Reload:
+                timeSinceStartReload += Time.deltaTime;
+                if (timeSinceStartReload >= currentWeaponSO.ReloadRate)
+                {
+                    inventory.ReloadAmmo(currentWeaponSO);
+                    timeSinceStartReload = 0f;
+                    currentState = WeaponState.Idle;
+                    starterAssetsInputs.reload = false;
                 }
                 break;
         }
@@ -102,6 +119,7 @@ public class EquippedWeapon : MonoBehaviour
             }
         }
     }
+
 
     private void ZoomIn()
     {

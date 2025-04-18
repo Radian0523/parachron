@@ -15,6 +15,7 @@ MonoBehaviour:
   weaponPrefab: {fileID: 7299358504018976492, guid: f0a0f14c235028e4aac38e4fb7df76e6, type: 3}
   Damage: 2
   FireRate: 0.2
+  ReloadRate: 0.5
   HitVFXPrefab: {fileID: 3584204661001725410, guid: 030b68553779bbe47ab5f0fb1fb2ec75, type: 3}
   IsAutomatic: 0
   CanZoom: 0
@@ -22,3 +23,4 @@ MonoBehaviour:
   ZoomRotationSpeed: 0.3
   MagazineSize: 12
   hitStopDuration: 0.05
+  inventoryIndex: 0

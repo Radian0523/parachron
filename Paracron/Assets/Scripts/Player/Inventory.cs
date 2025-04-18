@@ -62,4 +62,11 @@ public class Inventory : MonoBehaviour
         reserveAmmo = Mathf.Min(reserveAmmo + amount, 999);
         inventoryUIPresenter.OnAdjustReserveAmmo();
     }
+
+    public void ReloadAmmo(WeaponSO curWeaponSO)
+    {
+        int amount = curWeaponSO.MagazineSize - magazineAmmo[curWeaponSO.inventoryIndex];
+        AdjustMagazineAmmo(curWeaponSO.inventoryIndex, amount);
+        AdjustReserveAmmo(-amount);
+    }
 }
