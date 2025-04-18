@@ -1,0 +1,9 @@
+@startuml
+title クラス図
+class EquippedWeapon{
+    +Weapon currentWeapon
+    -WeaponSO currentWeaponSO
+    
+}
+
+@enduml
