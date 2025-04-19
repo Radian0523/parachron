@@ -6,6 +6,7 @@ using TMPro;
 public class Inventory : MonoBehaviour
 {
     [SerializeField] InventoryUIPresenter inventoryUIPresenter;
+    [SerializeField] AudioClip increaseReserveAmmoSE;
 
     HashSet<string> items = new();
     Dictionary<int, int> magazineAmmo = new();
@@ -14,6 +15,7 @@ public class Inventory : MonoBehaviour
 
     OwnedWeapon ownedWeapon;
     EquippedWeapon equippedWeapon;
+    AudioSource audioSource;
 
     public int ReserveAmmo => reserveAmmo;
     public int MagazineAmmo(int weaponInventoryIndex) => magazineAmmo.ContainsKey(weaponInventoryIndex) ? magazineAmmo[weaponInventoryIndex] : 0;
@@ -23,6 +25,7 @@ public class Inventory : MonoBehaviour
     {
         ownedWeapon = GetComponent<OwnedWeapon>();
         equippedWeapon = GetComponent<EquippedWeapon>();
+        audioSource = GetComponent<AudioSource>();
     }
     void Start()
     {
@@ -61,11 +64,16 @@ public class Inventory : MonoBehaviour
     {
         reserveAmmo = Mathf.Min(reserveAmmo + amount, 999);
         inventoryUIPresenter.OnAdjustReserveAmmo();
+        if (amount > 0)
+        {
+            audioSource.PlayOneShot(increaseReserveAmmoSE);
+        }
     }
 
     public void ReloadAmmo(WeaponSO curWeaponSO)
     {
         int amount = curWeaponSO.MagazineSize - magazineAmmo[curWeaponSO.inventoryIndex];
+        amount = Mathf.Min(amount, reserveAmmo);
         AdjustMagazineAmmo(curWeaponSO.inventoryIndex, amount);
         AdjustReserveAmmo(-amount);
     }

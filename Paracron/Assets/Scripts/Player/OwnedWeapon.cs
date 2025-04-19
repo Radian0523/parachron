@@ -21,6 +21,7 @@ public class OwnedWeapon : MonoBehaviour
     StarterAssetsInputs starterAssetsInputs;
     Inventory inventory;
     EquippedWeapon equippedWeapon;
+    AudioSource audioSource;
 
     // Weapon currentWeapon;
     Dictionary<int, OwnedWeaponData> ownedWeapons = new();
@@ -35,6 +36,7 @@ public class OwnedWeapon : MonoBehaviour
         starterAssetsInputs = GetComponentInParent<StarterAssetsInputs>();
         inventory = GetComponent<Inventory>();
         equippedWeapon = GetComponent<EquippedWeapon>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Start()
@@ -114,13 +116,16 @@ public class OwnedWeapon : MonoBehaviour
     {
         WeaponSO newWeaponSO = ownedWeapons[newWeaponInventoryIndex].weaponSO;
 
-        StopAllCoroutines();
+        // StopAllCoroutines();
         if (equippedWeapon.CurrentWeapon)
             StartCoroutine(ChangeWeaponRoutine(equippedWeapon.CurrentWeaponSO.inventoryIndex, false));
         StartCoroutine(ChangeWeaponRoutine(newWeaponSO.inventoryIndex, true));
 
         inventoryUIPresenter.OnSwitchWeapon(newWeaponInventoryIndex);
         equippedWeapon.UpdateCurrentWeapon(newWeaponInventoryIndex);
+
+        if (equippedWeapon.CurrentWeaponSO.PrepareSE)
+            audioSource.PlayOneShot(equippedWeapon.CurrentWeaponSO.PrepareSE);
     }
 
 

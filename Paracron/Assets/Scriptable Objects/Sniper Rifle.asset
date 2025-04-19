@@ -15,6 +15,7 @@ MonoBehaviour:
   weaponPrefab: {fileID: 3755306671721112466, guid: 4595d19c87826684583f0ee871723ba5, type: 3}
   Damage: 5
   FireRate: 1
+  ReloadRate: 1
   HitVFXPrefab: {fileID: 3584204661001725410, guid: 030b68553779bbe47ab5f0fb1fb2ec75, type: 3}
   IsAutomatic: 0
   CanZoom: 1
@@ -23,3 +24,9 @@ MonoBehaviour:
   MagazineSize: 8
   hitStopDuration: 0.05
   inventoryIndex: 2
+  FireSE: {fileID: 8300000, guid: 76ad82b416268d3439bd27a6304263e5, type: 3}
+  FireSEScale: 0.5
+  ReloadSE: {fileID: 8300000, guid: 7b78939ac6e24bb44b4dd659392400da, type: 3}
+  ReloadSEScale: 1
+  PrepareSE: {fileID: 8300000, guid: 76c780c0b87858143bc2cc05a786d820, type: 3}
+  DryFireSE: {fileID: 8300000, guid: 583c126428e14d642a3da0b8ee88738f, type: 3}

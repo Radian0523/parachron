@@ -24,3 +24,9 @@ MonoBehaviour:
   MagazineSize: 48
   hitStopDuration: 0.05
   inventoryIndex: 1
+  FireSE: {fileID: 8300000, guid: 475eebb69af65c646ac88f43e782fa1a, type: 3}
+  FireSEScale: 0.4
+  ReloadSE: {fileID: 8300000, guid: 7b78939ac6e24bb44b4dd659392400da, type: 3}
+  ReloadSEScale: 1
+  PrepareSE: {fileID: 8300000, guid: 76c780c0b87858143bc2cc05a786d820, type: 3}
+  DryFireSE: {fileID: 8300000, guid: 583c126428e14d642a3da0b8ee88738f, type: 3}
