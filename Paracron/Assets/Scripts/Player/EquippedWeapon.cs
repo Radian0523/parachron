@@ -18,6 +18,7 @@ public class EquippedWeapon : MonoBehaviour
     WeaponSO currentWeaponSO;
     Animator animator;
     OwnedWeapon ownedWeapon;
+    AudioSource audioSource;
 
 
     bool isZoomingIn = false;
@@ -48,6 +49,7 @@ public class EquippedWeapon : MonoBehaviour
         ownedWeapon = GetComponent<OwnedWeapon>();
         inventory = GetComponent<Inventory>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
 
         currentState = WeaponState.Idle;
         defaultFOV = cinemachineCamera.m_Lens.FieldOfView;
@@ -70,15 +72,25 @@ public class EquippedWeapon : MonoBehaviour
         switch (currentState)
         {
             case WeaponState.Idle:
-                if (starterAssetsInputs.reload)
+                if (starterAssetsInputs.reload && inventory.MagazineAmmo(currentWeaponSO.inventoryIndex) < currentWeaponSO.MagazineSize && inventory.ReserveAmmo > 0)
                 {
-                    currentState = WeaponState.Reload; currentState = WeaponState.Reload;
+                    currentState = WeaponState.Reload;
+                    audioSource.PlayOneShot(currentWeaponSO.ReloadSE, currentWeaponSO.ReloadSEScale);
+                    timeSinceStartReload = 0;
                     break;
                 }
-                if (!starterAssetsInputs.shoot || inventory.MagazineAmmo(currentWeaponSO.inventoryIndex) <= 0) return;
+                if (!starterAssetsInputs.shoot) return;
+                if (inventory.MagazineAmmo(currentWeaponSO.inventoryIndex) <= 0)
+                {
+                    if (currentWeaponSO.DryFireSE)
+                        audioSource.PlayOneShot(currentWeaponSO.DryFireSE);
+                    starterAssetsInputs.ShootInput(false);
+                    return;
+                }
                 currentWeapon.Shoot(currentWeaponSO);
                 inventory.AdjustMagazineAmmo(currentWeaponSO.inventoryIndex, -1);
                 animator.Play(SHOOT_STRING, 0, 0f);
+                audioSource.PlayOneShot(currentWeaponSO.FireSE, currentWeaponSO.FireSEScale);
                 currentState = WeaponState.Firing;
                 break;
             case WeaponState.Firing:
@@ -98,6 +110,7 @@ public class EquippedWeapon : MonoBehaviour
                     inventory.ReloadAmmo(currentWeaponSO);
                     timeSinceStartReload = 0f;
                     currentState = WeaponState.Idle;
+                    audioSource.Stop();
                     starterAssetsInputs.reload = false;
                 }
                 break;

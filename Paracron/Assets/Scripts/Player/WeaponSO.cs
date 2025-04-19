@@ -15,4 +15,10 @@ public class WeaponSO : ScriptableObject
     public int MagazineSize = 12;
     public float hitStopDuration = 0.05f;
     public int inventoryIndex = 0;
+    public AudioClip FireSE;
+    public float FireSEScale = 1;
+    public AudioClip ReloadSE;
+    public float ReloadSEScale = 1;
+    public AudioClip PrepareSE;
+    public AudioClip DryFireSE;
 }

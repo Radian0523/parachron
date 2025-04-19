@@ -56,6 +56,7 @@ namespace StarterAssets
 
 		// player
 		private float _speed;
+		float lastTargetSpeed = 0;
 		private float _rotationVelocity;
 		private float _verticalVelocity;
 		private float _terminalVelocity = 53.0f;
@@ -63,6 +64,10 @@ namespace StarterAssets
 		// timeout deltatime
 		private float _jumpTimeoutDelta;
 		private float _fallTimeoutDelta;
+
+		AudioSource audioSource;
+		[SerializeField] AudioClip runSE;
+		[SerializeField] AudioClip sprintSE;
 
 
 #if ENABLE_INPUT_SYSTEM
@@ -93,6 +98,7 @@ namespace StarterAssets
 			{
 				_mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
 			}
+			audioSource = GetComponent<AudioSource>();
 		}
 
 		private void Start()
@@ -201,6 +207,36 @@ namespace StarterAssets
 
 			// move the player
 			_controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
+
+			PlayFootSound(targetSpeed);
+		}
+
+		private void PlayFootSound(float targetSpeed)
+		{
+			if (!Grounded)
+			{
+				audioSource.Stop();
+				return;
+			}
+			if (targetSpeed == SprintSpeed)
+			{
+				if (lastTargetSpeed != SprintSpeed) audioSource.Stop();
+				if (!audioSource.isPlaying)
+					audioSource.PlayOneShot(sprintSE);
+				lastTargetSpeed = SprintSpeed;
+			}
+			else if (targetSpeed == MoveSpeed)
+			{
+				if (lastTargetSpeed != MoveSpeed) audioSource.Stop();
+				if (!audioSource.isPlaying)
+					audioSource.PlayOneShot(runSE);
+				lastTargetSpeed = MoveSpeed;
+			}
+			else
+			{
+				if (lastTargetSpeed != 0) audioSource.Stop();
+				lastTargetSpeed = 0;
+			}
 		}
 
 		private void JumpAndGravity()
