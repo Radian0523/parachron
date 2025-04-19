@@ -1,9 +1,44 @@
 @startuml
-title クラス図
-class EquippedWeapon{
-    +Weapon currentWeapon
-    -WeaponSO currentWeaponSO
-    
+
+class FirstPersonController {
+    +float MoveSpeed
+    +float SprintSpeed
+    +float RotationSpeed
+    +float SpeedChangeRate
+    +float JumpHeight
+    +float Gravity
+    +float JumpTimeout
+    +float FallTimeout
+    +bool Grounded
+    +float GroundedOffset
+    +float GroundedRadius
+    +LayerMask GroundLayers
+    +GameObject CinemachineCameraTarget
+    +float TopClamp
+    +float BottomClamp
+    +void ChangeRotationSpeed(float amount)
 }
 
+class StarterAssetsInputs {
+    +Vector2 move
+    +Vector2 look
+    +bool jump
+    +bool sprint
+    +bool analogMovement
+}
+
+class CharacterController {
+    +Vector3 velocity
+    +void Move(Vector3 motion)
+}
+
+class PlayerInput {
+    +string currentControlScheme
+}
+
+FirstPersonController --> StarterAssetsInputs : uses
+FirstPersonController --> CharacterController : uses
+FirstPersonController --> PlayerInput : uses
+
 @enduml
+
