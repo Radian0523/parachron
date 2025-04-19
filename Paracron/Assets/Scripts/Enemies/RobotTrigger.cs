@@ -22,8 +22,8 @@ public class RobotTrigger : MonoBehaviour
             passedThrough = true;
             foreach (Robot robot in robots)
             {
-                if (!robot) return;
-                if (!robot.gameObject) return;
+                if (!robot) continue;
+                if (!robot.gameObject) continue;
                 robot.OnStartChase();
             }
         }
