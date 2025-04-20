@@ -22,7 +22,7 @@ MonoBehaviour:
   ZoomAmount: 10
   ZoomRotationSpeed: 0.3
   MagazineSize: 48
-  hitStopDuration: 0.05
+  hitStopDuration: 0.03
   inventoryIndex: 1
   FireSE: {fileID: 8300000, guid: 475eebb69af65c646ac88f43e782fa1a, type: 3}
   FireSEScale: 0.4

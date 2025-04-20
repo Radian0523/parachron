@@ -35,7 +35,6 @@ public class EnemyHealth : MonoBehaviour
         currentHealth -= amount;
         if (currentHealth <= 0)
         {
-            gameManager.AdjustEnemiesLeft(-1);
             SelfDestruct();
         }
     }
@@ -44,6 +43,8 @@ public class EnemyHealth : MonoBehaviour
     {
         Debug.Log(robotExplosionSEScale);
         Debug.Log(robotExplosionSE);
+        gameManager.AdjustEnemiesLeft(-1);
+
         audioSource.PlayOneShot(robotExplosionSE, robotExplosionSEScale);
         Instantiate(robotExplosionVFX, transform.position, Quaternion.identity);
         Destroy(gameObject);
