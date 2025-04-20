@@ -12,6 +12,62 @@ PrefabInstance:
       propertyPath: m_Name
       value: HandRailGun
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ee6dfe33129a0db4193f14207d5c8960, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: ee6dfe33129a0db4193f14207d5c8960, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: ee6dfe33129a0db4193f14207d5c8960, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: ee6dfe33129a0db4193f14207d5c8960, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: ee6dfe33129a0db4193f14207d5c8960, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: ee6dfe33129a0db4193f14207d5c8960, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: ee6dfe33129a0db4193f14207d5c8960, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: ee6dfe33129a0db4193f14207d5c8960, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100020, guid: ee6dfe33129a0db4193f14207d5c8960, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: ee6dfe33129a0db4193f14207d5c8960, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100024, guid: ee6dfe33129a0db4193f14207d5c8960, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100026, guid: ee6dfe33129a0db4193f14207d5c8960, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100028, guid: ee6dfe33129a0db4193f14207d5c8960, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100030, guid: ee6dfe33129a0db4193f14207d5c8960, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ee6dfe33129a0db4193f14207d5c8960, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.4073257

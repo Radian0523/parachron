@@ -26,6 +26,7 @@ public class Robot : MonoBehaviour
     void Update()
     {
         if (!player) return;
+        if (agent.enabled == false) return;
         agent.SetDestination(player.transform.position);
     }
 
@@ -39,11 +40,11 @@ public class Robot : MonoBehaviour
 
     public void OnStopChase()
     {
-        agent.isStopped = true;
+        agent.enabled = false;
     }
 
     public void OnStartChase()
     {
-        agent.isStopped = false;
+        agent.enabled = true;
     }
 }
