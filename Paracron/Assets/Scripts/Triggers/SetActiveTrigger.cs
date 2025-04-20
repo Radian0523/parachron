@@ -13,6 +13,7 @@ public class SetActiveTrigger : BaseTrigger
     }
     protected override void OnPlayerEnter(Collider other)
     {
+
         foreach (var objectToActivate in objectsToActivate)
         {
             objectToActivate?.SetActive(true); // プレイヤーがトリガーに入ったときにオブジェクトをアクティブにする

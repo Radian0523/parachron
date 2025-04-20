@@ -14,9 +14,11 @@ public class TimeRewindableObject : MonoBehaviour
 
     private List<TransformSnapshot> history = new List<TransformSnapshot>();
     [SerializeField] private float recordTime = 10f; // 記録時間（秒）
+    // [SerializeField] private float rewindTimeInterval = 0.06f;
 
     private bool isRewinding = false;
     private bool wasAgentEnabled; // NavMeshAgentが有効だったかどうか
+    // int rewindTimeScaleAdjuster = 0;
 
     Rigidbody rb;
     NavMeshAgent agent;
@@ -66,6 +68,17 @@ public class TimeRewindableObject : MonoBehaviour
 
     void Rewind()
     {
+        // rewindTimeScaleAdjuster++;
+        // if (rewindTimeScaleAdjuster >= rewindTimeInterval)
+        // {
+        //     rewindTimeScaleAdjuster = 0;
+        // }
+        // else
+        // {
+        //     return; // 一定時間ごとにリワインドを実行
+        // }
+
+
         if (history.Count > 0)
         {
             var snapshot = history[0];

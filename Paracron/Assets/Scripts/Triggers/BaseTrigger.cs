@@ -2,10 +2,15 @@ using UnityEngine;
 
 public abstract class BaseTrigger : MonoBehaviour
 {
+    bool hadEntered = false; // プレイヤーがトリガーを通過したかどうかのフラグ
+    bool hadExited = false; // プレイヤーがトリガーを通過したかどうかのフラグ
+
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
+            if (hadEntered) return; // すでに通過している場合は何もしない
+            hadEntered = true; // プレイヤーがトリガーを通過したことを記録
             OnPlayerEnter(other);
         }
     }
@@ -14,6 +19,8 @@ public abstract class BaseTrigger : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            if (hadExited) return; // すでに通過している場合は何もしない
+            hadExited = true; // プレイヤーがトリガーを通過したことを記録
             OnPlayerExit(other);
         }
     }

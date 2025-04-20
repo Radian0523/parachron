@@ -4,7 +4,6 @@ using UnityEngine;
 public class RobotTrigger : BaseTrigger
 {
     [SerializeField] List<Robot> robots;
-    bool passedThrough;
 
     void Start()
     {
@@ -16,8 +15,6 @@ public class RobotTrigger : BaseTrigger
 
     protected override void OnPlayerEnter(Collider other)
     {
-        if (passedThrough) return;
-        passedThrough = true;
         foreach (Robot robot in robots)
         {
             if (!robot) continue;
