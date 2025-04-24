@@ -7,6 +7,8 @@ public class SpawnGate : MonoBehaviour
     [SerializeField] Transform spawnPoint;
     [SerializeField] float spwanTime = 5f;
 
+    public bool canSpawn = true;
+
     PlayerHealth player;
     void Start()
     {
@@ -18,7 +20,7 @@ public class SpawnGate : MonoBehaviour
     {
         while (player)
         {
-            Instantiate(robotPrefab, spawnPoint.position, transform.rotation);
+            if (canSpawn) Instantiate(robotPrefab, spawnPoint.position, transform.rotation);
             yield return new WaitForSeconds(spwanTime);
         }
 

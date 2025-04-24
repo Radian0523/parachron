@@ -43,9 +43,10 @@ GameObject:
   - component: {fileID: 3181201194830727879}
   - component: {fileID: 5968710178446783756}
   - component: {fileID: 2494928712803703764}
+  - component: {fileID: 3753646834740827205}
+  - component: {fileID: -3536887585382300735}
   - component: {fileID: 7551165004825183440}
   - component: {fileID: 5972757564350068281}
-  - component: {fileID: 3753646834740827205}
   - component: {fileID: 8731554397378659539}
   - component: {fileID: 8112252346111766657}
   m_Layer: 6
@@ -105,6 +106,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7865e2896485b9479d4aac21e245ed5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3753646834740827205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8398603897042299677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bab9cbdbeda3883488b1aaa552580a38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  robotExplosionVFX: {fileID: 9030073202723525444, guid: 7c6257d21d295ba4ea559a012a6c758a, type: 3}
+  robotExplosionSE: {fileID: 8300000, guid: b3d4e86e615c99a48a4629124a378450, type: 3}
+  robotExplosionSEScale: 2
+  startingHealth: 3
+--- !u!114 &-3536887585382300735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8398603897042299677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c067b6ac7e9996744bad1ec9f1c03c99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recordTime: 10
 --- !u!136 &7551165004825183440
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -151,22 +181,6 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3753646834740827205
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8398603897042299677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bab9cbdbeda3883488b1aaa552580a38, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  robotExplosionVFX: {fileID: 9030073202723525444, guid: 7c6257d21d295ba4ea559a012a6c758a, type: 3}
-  robotExplosionSE: {fileID: 8300000, guid: b3d4e86e615c99a48a4629124a378450, type: 3}
-  robotExplosionSEScale: 2
-  startingHealth: 3
 --- !u!95 &8731554397378659539
 Animator:
   serializedVersion: 7
