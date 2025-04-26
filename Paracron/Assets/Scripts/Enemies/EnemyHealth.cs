@@ -22,7 +22,7 @@ public class EnemyHealth : MonoBehaviour
     void Start()
     {
         gameManager = FindFirstObjectByType<GameManager>();
-        gameManager.AdjustEnemiesLeft(1);
+        gameManager.EnemiesLeftManager.AdjustEnemiesLeft(1);
     }
     // Update is called once per frame
     void Update()
@@ -43,7 +43,7 @@ public class EnemyHealth : MonoBehaviour
     {
         Debug.Log(robotExplosionSEScale);
         Debug.Log(robotExplosionSE);
-        gameManager.AdjustEnemiesLeft(-1);
+        gameManager.EnemiesLeftManager.AdjustEnemiesLeft(-1);
 
         audioSource.PlayOneShot(robotExplosionSE, robotExplosionSEScale);
         Instantiate(robotExplosionVFX, transform.position, Quaternion.identity);
