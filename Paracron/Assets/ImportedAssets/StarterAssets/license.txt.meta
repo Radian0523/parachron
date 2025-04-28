@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: b846ecad8a98bd34dba8a5daf996d86e
-TextScriptImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 196525
-  packageName: Starter Assets - FirstPerson | Updates in new CharacterController
-    package
-  packageVersion: 1.3
-  assetPath: Assets/StarterAssets/license.txt
-  uploadId: 691166
+version https://git-lfs.github.com/spec/v1
+oid sha256:a74692bf5109c1310b6e5bdd38ddf61e6baae192829e4bcef196038b0ed68b12
+size 409

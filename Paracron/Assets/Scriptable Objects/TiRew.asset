@@ -1,32 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a30c11fb3301643488c66a14ab2b2418, type: 3}
-  m_Name: TiRew
-  m_EditorClassIdentifier: 
-  weaponPrefab: {fileID: 7299358504018976492, guid: b39c6ad0d31b6614a96af0c1a10ab2e6, type: 3}
-  Damage: 0
-  FireRate: 0.5
-  ReloadRate: 1
-  HitVFXPrefab: {fileID: 3584204661001725410, guid: 14ac8bfbd0b97f1458abf27e0633ad17, type: 3}
-  IsAutomatic: 0
-  CanZoom: 0
-  ZoomAmount: 10
-  ZoomRotationSpeed: 0.3
-  MagazineSize: 50
-  hitStopDuration: 0.05
-  inventoryIndex: 5
-  FireSE: {fileID: 8300000, guid: 475eebb69af65c646ac88f43e782fa1a, type: 3}
-  FireSEScale: 1
-  ReloadSE: {fileID: 8300000, guid: 7b78939ac6e24bb44b4dd659392400da, type: 3}
-  ReloadSEScale: 1
-  PrepareSE: {fileID: 8300000, guid: 76c780c0b87858143bc2cc05a786d820, type: 3}
-  DryFireSE: {fileID: 8300000, guid: 583c126428e14d642a3da0b8ee88738f, type: 3}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e7b8da7d25d9ce573be517b1d050903e3d996d3b70752fdc7c026d305d0e8ee
+size 1147

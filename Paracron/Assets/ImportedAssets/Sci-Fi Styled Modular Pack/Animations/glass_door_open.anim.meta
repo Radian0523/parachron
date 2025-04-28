@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: e4a7d3a2e475e6543994756f695d34ce
-timeCreated: 1486917390
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Animations/glass_door_open.anim
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:d86d2a9326da7a6ab4992173744df9e2465f966670d1151c60b00019526a6625
+size 413

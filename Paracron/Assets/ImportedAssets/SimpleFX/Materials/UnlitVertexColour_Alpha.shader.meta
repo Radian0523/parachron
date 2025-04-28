@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 125f31ba4cdefb2469a075f509877b02
-timeCreated: 1461197347
-licenseType: Store
-ShaderImporter:
-  defaultTextures: []
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 67834
-  packageName: Simple FX - Cartoon Particles
-  packageVersion: 1.2
-  assetPath: Assets/SimpleFX/Materials/UnlitVertexColour_Alpha.shader
-  uploadId: 615759
+version https://git-lfs.github.com/spec/v1
+oid sha256:4baea6304881b0db791b2f6b7d12822910d65ee6a54b4e99e6aab506922cf3dd
+size 424

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 6456a4784f31cab439d29b7e3bb286a4
-timeCreated: 1486799750
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/container_small.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:eba258ed0d0a8975f1085913510181582e0241405e4b8cf1cf62013e7816839d
+size 421

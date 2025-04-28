@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 0f4853191d321d748b1f95a97d7b37f4
-timeCreated: 1486719799
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Materials/lattice.mat
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c35d5fade2269a3a6c85717d569a7b90a5dfed550416d05617adc74530e5374
+size 403

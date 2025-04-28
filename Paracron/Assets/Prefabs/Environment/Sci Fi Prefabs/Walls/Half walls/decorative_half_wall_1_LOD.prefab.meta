@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: b0b67fee087661941a6b851ede8cc5ed
-timeCreated: 1486905318
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_1_LOD.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:da337085ac86a779130f16787a5c4a062ee3da1f49541f839c43e527cd6177df
+size 440

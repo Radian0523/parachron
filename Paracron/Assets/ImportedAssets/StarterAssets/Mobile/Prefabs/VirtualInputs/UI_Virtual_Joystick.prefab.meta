@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 6eb08bfc0fd869c47b796c42ada099da
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 196525
-  packageName: Starter Assets - FirstPerson | Updates in new CharacterController
-    package
-  packageVersion: 1.3
-  assetPath: Assets/StarterAssets/Mobile/Prefabs/VirtualInputs/UI_Virtual_Joystick.prefab
-  uploadId: 691166
+version https://git-lfs.github.com/spec/v1
+oid sha256:e22259fdbb48188fcd9e412eeb0551a0559c758333dd3501761bed2e3ce4d29c
+size 449

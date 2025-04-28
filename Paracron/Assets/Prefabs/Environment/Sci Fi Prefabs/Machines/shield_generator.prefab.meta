@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 3705bd4c1b398ea4ba0413ef903772cc
-timeCreated: 1486799521
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/shield_generator.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:ffef7cab87d5632fa092308e8e8e73a01497fcb12f8e1bad38a529590cef1d65
+size 422

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: dbe9743d9065a2445a22fa67fa9fdbb5
-timeCreated: 1469254404
-licenseType: Store
-DefaultImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 67834
-  packageName: Simple FX - Cartoon Particles
-  packageVersion: 1.2
-  assetPath: Assets/SimpleFX/Scenes/Demo.unity
-  uploadId: 615759
+version https://git-lfs.github.com/spec/v1
+oid sha256:ffbf30b1b59a8e4a0d94873f1cb3ca89742bd38a25481005a77b6fd56fffbaaf
+size 379

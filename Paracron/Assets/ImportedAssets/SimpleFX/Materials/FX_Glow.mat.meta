@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 040cfa3c61ad57946ae16c627e338920
-timeCreated: 1461193354
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 67834
-  packageName: Simple FX - Cartoon Particles
-  packageVersion: 1.2
-  assetPath: Assets/SimpleFX/Materials/FX_Glow.mat
-  uploadId: 615759
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc618ff0dd83cb1f159fd2d31aa81b40c94622fbb71b2ffd5e11bf8c360955d0
+size 388

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 23dfeb7d73f68474285f619486e8119f
-timeCreated: 1487075160
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Column/column_kneel_2.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:d9d983c2535786cc48b5b36f9a26b345160206366cbf22341afec1105aea2d71
+size 438

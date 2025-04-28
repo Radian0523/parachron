@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 466621a4836aa504c87c15d88722d465
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 196525
-  packageName: Starter Assets - FirstPerson | Updates in new CharacterController
-    package
-  packageVersion: 1.3
-  assetPath: Assets/StarterAssets/Environment/Prefabs/Stairs_200x100x200_Prefab.prefab
-  uploadId: 691166
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce7198c3fabaa5840de075957c02e760bfcfefaf4c18bcc426c8d57d56ab0a52
+size 446

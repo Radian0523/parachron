@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 861fea087c7148246939515a3d957d2e
-timeCreated: 1486799457
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Tables/desk_no_computer.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:57745d049a2c70c743c033954baea9de8bf4d4699cf059a3c2f895fba644e728
+size 440

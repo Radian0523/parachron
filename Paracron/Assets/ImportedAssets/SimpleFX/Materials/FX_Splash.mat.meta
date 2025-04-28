@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 1ee00051305bdb049b02c923f047227d
-timeCreated: 1496248029
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 67834
-  packageName: Simple FX - Cartoon Particles
-  packageVersion: 1.2
-  assetPath: Assets/SimpleFX/Materials/FX_Splash.mat
-  uploadId: 615759
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ab328541cb6d1cefaffb38f22258fd149d54b05e0a7e56b588bcf646569fbfb
+size 390

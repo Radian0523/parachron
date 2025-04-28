@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 6b6dfd77776c54a4781ec8cab4d87860
-timeCreated: 1486747800
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Materials/white emision.mat
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e7038c5bdcd64200ec0aa8c08ca2952eaa7b269e497492a9bd2a78393f63717
+size 409

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 079954accd64b32419ec069129c81273
-timeCreated: 1463710642
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 67834
-  packageName: Simple FX - Cartoon Particles
-  packageVersion: 1.2
-  assetPath: Assets/SimpleFX/Prefabs/FX_Explosion_Rubble.prefab
-  uploadId: 615759
+version https://git-lfs.github.com/spec/v1
+oid sha256:092f07c1d8151ccccca8309fbabc2ffbec04e4cc33bf7b7b9ad5e3bc5dcbe6d4
+size 401

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 8e32be8f06ec06448ac537b609c2d7f7
-timeCreated: 1486828860
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_2.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed8b40dfae38f374e31d56970ef62fa1fd8eda7dca3c1bab782baeefbfb6af66
+size 416

@@ -539,7 +539,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 53, y: 9}
+  m_AnchoredPosition: {x: 53, y: -6}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &49421611
@@ -562,10 +562,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Emergency Withdraw
+  m_text: "\u7DCA\u6025\u8131\u51FA"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1c4fe6a5ad587784a82704232a41afb3, type: 2}
-  m_sharedMaterial: {fileID: 7504040141428030389, guid: 1c4fe6a5ad587784a82704232a41afb3, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e862b135fac94a44fb073a816c4a6f5b, type: 2}
+  m_sharedMaterial: {fileID: 2303595208583532191, guid: e862b135fac94a44fb073a816c4a6f5b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -589,8 +589,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -13569,8 +13569,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1c4fe6a5ad587784a82704232a41afb3, type: 2}
-  m_sharedMaterial: {fileID: 7504040141428030389, guid: 1c4fe6a5ad587784a82704232a41afb3, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e862b135fac94a44fb073a816c4a6f5b, type: 2}
+  m_sharedMaterial: {fileID: 2303595208583532191, guid: e862b135fac94a44fb073a816c4a6f5b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16077,6 +16077,7 @@ MonoBehaviour:
   eButtonImage: {fileID: 885249274}
   inputs: {fileID: 1165338153}
   holdTime: 2
+  meetingSceneBuildIndex: 1
 --- !u!1001 &1870363056
 PrefabInstance:
   m_ObjectHideFlags: 0

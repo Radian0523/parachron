@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: f504634dd4e949419ea4c6837b635a12
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 253961
-  packageName: RPG Monster Buddy PBR Polyart
-  packageVersion: 1.0
-  assetPath: Assets/RPGMonsterBuddiesPBRPA/Material/Stage.mat
-  uploadId: 581334
+version https://git-lfs.github.com/spec/v1
+oid sha256:f893ece197579b12a0aad78f19007f3442bd7bdee46e5e8b4015e4731dabe95b
+size 386

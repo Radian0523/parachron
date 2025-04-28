@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: bb0ea486e3a8ea846993232a228b528a
-timeCreated: 1487066763
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/blue color.mat
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f622e108b89bd9cbe61e53a9f375bfe2e1bb1a613c856c449557bb11ba9011e
+size 415

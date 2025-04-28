@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 9d71973b94dc7364a8a8c7cd0a62b082
-timeCreated: 1487315673
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Joints/Joint_X_6.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e747a95fb2b25c44708b592de22db0808d28246aff7fec05f5378db2705644a
+size 413

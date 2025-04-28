@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 8b5797a18349fb546be8acddc71151ff
-timeCreated: 1486828862
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_3_blue.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b9d8025d4aa04052ca6fc909d7dbe9b733b0e32d11b30592fd76600c777f5cc
+size 421

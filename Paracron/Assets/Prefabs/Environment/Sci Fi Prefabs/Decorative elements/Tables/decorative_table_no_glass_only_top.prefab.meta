@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 699db2b0a61aefe44b1da8ec52e44bcf
-timeCreated: 1487075167
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Tables/decorative_table_no_glass_only_top.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:01749e5ce1af05cc046bebb358fd367fea7a2f9c67e191bee5a955e2094942cc
+size 458

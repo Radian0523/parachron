@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: d6898ced4e4514f55ab4909252c72153
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 11400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 196525
-  packageName: Starter Assets - FirstPerson | Updates in new CharacterController
-    package
-  packageVersion: 1.3
-  assetPath: Assets/StarterAssets/Settings/Low_PipelineAsset.asset
-  uploadId: 691166
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ba4bd50675dac4058c43c6feeb4f60a772903639500fc59b36368683855b0d9
+size 462

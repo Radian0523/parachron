@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: f602bc4d8fe1a744ca7ea8d4ec0871ad
-timeCreated: 1486917282
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Animations/glass_panel_1_with_door.controller
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:2693a7f453cf8752088b9f17755f8fc993b3d7b3db682196c382b9427d901160
+size 427

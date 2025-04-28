@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: a48631e259d0486fa83621f7d8f36e72
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 253961
-  packageName: RPG Monster Buddy PBR Polyart
-  packageVersion: 1.0
-  assetPath: Assets/RPGMonsterBuddiesPBRPA/Prefab/CactusPBR.prefab
-  uploadId: 581334
+version https://git-lfs.github.com/spec/v1
+oid sha256:d79d3fec95518767840182a185ccfbef3464fe99154720efe380a6ad3de953aa
+size 363

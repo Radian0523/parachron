@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 175a7a95bcd3365459e9fa51eb627c84
-timeCreated: 1459602070
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 59877
-  packageName: Hand RailGun
-  packageVersion: 1.0
-  assetPath: Assets/HandRailGun/Materials/envir.mat
-  uploadId: 112672
+version https://git-lfs.github.com/spec/v1
+oid sha256:5662f3871578d392b6dbb3f607dc7c53424ff007a36d36d882c37d3490cde349
+size 372

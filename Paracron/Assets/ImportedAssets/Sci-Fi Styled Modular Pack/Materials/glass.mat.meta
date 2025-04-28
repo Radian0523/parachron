@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 2ce01831e9f3ae441bb48623e5fbe0c0
-timeCreated: 1486719799
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Materials/glass.mat
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ab4893522df2bfa99b2aa97d602d5c9f8f0acccc89e14963e2414519345b347
+size 401

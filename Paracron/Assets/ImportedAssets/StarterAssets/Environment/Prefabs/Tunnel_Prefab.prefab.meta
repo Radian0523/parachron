@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: e5d7b87d422ee0f478ee09eb32e24f4e
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 196525
-  packageName: Starter Assets - FirstPerson | Updates in new CharacterController
-    package
-  packageVersion: 1.3
-  assetPath: Assets/StarterAssets/Environment/Prefabs/Tunnel_Prefab.prefab
-  uploadId: 691166
+version https://git-lfs.github.com/spec/v1
+oid sha256:e13c2b588fad32eb903b6c5c23cafc20fad273569a146790b8f44fe71318b845
+size 434

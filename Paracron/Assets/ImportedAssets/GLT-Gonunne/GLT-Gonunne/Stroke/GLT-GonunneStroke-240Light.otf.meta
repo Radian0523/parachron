@@ -1,21 +1,3 @@
-fileFormatVersion: 2
-guid: c3f68992f4da7db45bb76758c4ec626a
-TrueTypeFontImporter:
-  externalObjects: {}
-  serializedVersion: 4
-  fontSize: 16
-  forceTextureCase: -2
-  characterSpacing: 0
-  characterPadding: 1
-  includeFontData: 1
-  fontNames:
-  - GLT-GonunneStroke
-  fallbackFontReferences: []
-  customCharacters: 
-  fontRenderingMode: 0
-  ascentCalculationMode: 1
-  useLegacyBoundsCalculation: 0
-  shouldRoundAdvanceValue: 1
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:316e3162745ea6899d3ff596d6712b6963340948940ba3c6307fe593b8380b6a
+size 482

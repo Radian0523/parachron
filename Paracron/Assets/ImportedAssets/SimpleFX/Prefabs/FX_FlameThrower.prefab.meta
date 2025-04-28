@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 5cd5599e01f32bd418f20a3b9eac1c57
-timeCreated: 1463711805
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 67834
-  packageName: Simple FX - Cartoon Particles
-  packageVersion: 1.2
-  assetPath: Assets/SimpleFX/Prefabs/FX_FlameThrower.prefab
-  uploadId: 615759
+version https://git-lfs.github.com/spec/v1
+oid sha256:378639a9c4ac76c0e77db4d27163fabbcd9aef1bae26ca26b9eee2f5580fcb88
+size 397

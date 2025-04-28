@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: d65adb88fb474aa488e3dca96d9ee071
-timeCreated: 1487315618
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/bulletin_board_small.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:66008490b8d025c3eda2a352a8cbe5b787411b7b501f268ea62b252f5f868377
+size 437

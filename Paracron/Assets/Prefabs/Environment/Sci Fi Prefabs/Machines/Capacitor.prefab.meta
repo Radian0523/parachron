@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 888614259d2d71142a4ba0b538e54caf
-timeCreated: 1487065077
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/Capacitor.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:b14bc16871dafece8655da962bec845022f8d697b9c56a5c66933b9c2b781324
+size 415

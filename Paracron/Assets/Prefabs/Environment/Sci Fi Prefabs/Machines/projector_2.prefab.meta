@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: b09ac1c0cceeaae479323b022bfe74b1
-timeCreated: 1487075391
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/projector_2.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ae977ff1cae2ab9c65115c3c322d4a1e72ab3500abb31d36a5b9b657370e501
+size 417

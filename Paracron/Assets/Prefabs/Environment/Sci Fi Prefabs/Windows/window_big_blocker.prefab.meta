@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 73eea014833549e42853d51ff2b37c32
-timeCreated: 1486908494
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_blocker.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:295c1089f86fbc4adf97c0c11a66fafd4652481951c7bcddc1faa3d9bd26d320
+size 423

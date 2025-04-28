@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 1cf3cfed14637cd42a0ad3f801ebdb71
-timeCreated: 1487316134
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Models/Materials/base color.mat
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:86a21e042c48f5655c37292614e4c65c8a77f1533d10785e16774b0afe7f881c
+size 413

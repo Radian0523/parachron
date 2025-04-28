@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 496fa247adc61d44ebaeaf9d72671287
-timeCreated: 1487064901
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/projector stars.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc0726a6dc6dfba7efb358446d964cf3da8e12345e80dfb75331220763dd95f1
+size 421

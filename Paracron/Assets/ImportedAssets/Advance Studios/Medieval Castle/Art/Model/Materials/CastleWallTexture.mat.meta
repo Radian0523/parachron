@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: da9a573d7a0024a4d918df62e1720a31
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 282498
-  packageName: Medieval Castle - Modular
-  packageVersion: 1.0
-  assetPath: Assets/Advance Studios/Medieval Castle/Art/Model/Materials/CastleWallTexture.mat
-  uploadId: 657949
+version https://git-lfs.github.com/spec/v1
+oid sha256:28445cc7b831c0ef2720995a3b89b187cc52d629f7484d2c3637bcb6dd14036e
+size 420

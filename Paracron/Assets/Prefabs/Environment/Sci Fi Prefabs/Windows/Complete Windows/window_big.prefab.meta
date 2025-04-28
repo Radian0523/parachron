@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 964e3fd2e5ff9014ea2a3ce4b682e2c1
-timeCreated: 1486978451
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/Complete Windows/window_big.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:882451624bd55398f81bcdd076f1802e8b534525234408a6e7c05861a11b44c4
+size 432

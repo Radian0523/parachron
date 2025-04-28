@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: a6b9d7f63692cfd44b503ed7e09f6e5d
-timeCreated: 1486972906
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Corridors/Corridor_2.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e9541a4275b3b2a00583dc9f6936d982eebce056b9d7aedcc26c645b96ca21d
+size 417

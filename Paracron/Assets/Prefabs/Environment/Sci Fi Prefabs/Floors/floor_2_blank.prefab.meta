@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 69b3d20c177508d43a1c6f09b448d3ea
-timeCreated: 1486799757
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Floors/floor_2_blank.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:38110c87d8076c103b33549abda6fc1cc3fb85c491800b638c95d3a401ca052b
+size 417

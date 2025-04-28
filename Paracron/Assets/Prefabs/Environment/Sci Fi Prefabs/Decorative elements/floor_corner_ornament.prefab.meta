@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 0759e5b8616fa854dbb807a3ac19ec2b
-timeCreated: 1487075427
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/floor_corner_ornament.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb167638416333b33115d4b2952baadf9850f2cc3ee4d31558d36ea8eeac74d2
+size 438

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 31f1fecf6d97bb14492c1a71fb1a9bb2
-timeCreated: 1486756578
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Animations/door_2_open.anim
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:f056b1596883f2e60fc5d58c2c9b42607be463fd4ed442c7771619ee24b5d335
+size 409

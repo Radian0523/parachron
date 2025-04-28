@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: ea798cfb4939d4441b95d1bd39d0767f
-timeCreated: 1486799857
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Doors/door_1.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:650edbd7f19b8f5d6f93739f2ee93ab0654f9b5ec922ccc6fea369b9e08c8451
+size 409

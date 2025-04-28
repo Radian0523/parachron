@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 88e2387d52f16a24bbf3a98f88f690c0
-timeCreated: 1486799533
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Stairs/stairs_small_corner_with_emmision.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:706d45f45198c7b49cdedb16e33334043fc11ef1a2906f8930bd2a0fab4a9344
+size 437

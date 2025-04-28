@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 7f83c849ebc7c304e8ffbc4bfe60857a
-timeCreated: 1487315549
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/decorative_wall_G.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:219967823a12c60a2ef2a8858203f58b278199e317848fb37f52d7da665fb452
+size 427

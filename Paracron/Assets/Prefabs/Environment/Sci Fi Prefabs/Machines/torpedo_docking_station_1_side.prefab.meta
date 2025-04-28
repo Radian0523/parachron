@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 9d50504942943bc4db8140046bd7ee95
-timeCreated: 1487075431
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/torpedo_docking_station_1_side.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7e6e5c9bdf176dde39898358f6c09afe65d66874586b1e7313a5fda6087cdac
+size 436

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 8c3a444b099b80643a84476bfefca60d
-timeCreated: 1486799668
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/glass_panel_1_corner.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:f2458cf779f216470a2678a4eacc06f883e3f282f2e5d3ef5f7d744b02be279a
+size 423

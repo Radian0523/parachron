@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: dbf898c9f9c4a2d46aa6336e23caeb61
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 196525
-  packageName: Starter Assets - FirstPerson | Updates in new CharacterController
-    package
-  packageVersion: 1.3
-  assetPath: Assets/StarterAssets/Environment/Art/Materials/GridWhite_01_Mat.mat
-  uploadId: 691166
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c5d9670259b1152f8b1afec311d23c7f7e7d37800a473a041d918311ea0cebd
+size 469

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: ce9f6338cd38cc242ae7ba54eb5ca686
-timeCreated: 1486799885
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/decorative_chair.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:033d216ff6d8a50455047f754c193d1358cb613df111d5b164877d3e4d820074
+size 433

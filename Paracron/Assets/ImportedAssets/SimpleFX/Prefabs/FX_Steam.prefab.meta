@@ -1,11 +1,3 @@
-fileFormatVersion: 2
-guid: 5b6c2f68addb63847b151f0d41a9d3b1
-NativeFormatImporter:
-  userData: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 67834
-  packageName: Simple FX - Cartoon Particles
-  packageVersion: 1.2
-  assetPath: Assets/SimpleFX/Prefabs/FX_Steam.prefab
-  uploadId: 615759
+version https://git-lfs.github.com/spec/v1
+oid sha256:985e9a5f21d9741feb984b7ae2a1ba535e7f58c5e76838c6c6f3edcfdb3772aa
+size 300

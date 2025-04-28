@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 0e8152fe58379e843be49840febab4dd
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 282498
-  packageName: Medieval Castle - Modular
-  packageVersion: 1.0
-  assetPath: Assets/Advance Studios/Medieval Castle/Prefabs/Bridge Large.prefab
-  uploadId: 657949
+version https://git-lfs.github.com/spec/v1
+oid sha256:167e076c203f206aa4e7924fb7a1cd9549def842821919e1f50ad9d4e8ff49a2
+size 372

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: d4d2c18d124f37347824fd5e64f32024
-timeCreated: 1459747683
-licenseType: Store
-DefaultImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 59877
-  packageName: Hand RailGun
-  packageVersion: 1.0
-  assetPath: Assets/HandRailGun/HandRailGun.unity
-  uploadId: 112672
+version https://git-lfs.github.com/spec/v1
+oid sha256:48434096ac6a41dbb3c0e2801f7b41e31205fbe3c0ed2fdc3d60e55956ff87ca
+size 365

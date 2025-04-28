@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: ff188f58422043f489060e28a5e4e0c0
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 0
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 196525
-  packageName: Starter Assets - FirstPerson | Updates in new CharacterController
-    package
-  packageVersion: 1.3
-  assetPath: Assets/StarterAssets/Environment/Art/Materials/GridBlue_01_Mat.mat
-  uploadId: 691166
+version https://git-lfs.github.com/spec/v1
+oid sha256:90e71dcc1b058c943c842e43098d0585542b39f70d7fac70173c1085ed1d4d9c
+size 468

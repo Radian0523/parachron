@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 4181bfe715a83e843b7538d750dc57cc
-timeCreated: 1484217493
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 196525
-  packageName: Starter Assets - FirstPerson | Updates in new CharacterController
-    package
-  packageVersion: 1.3
-  assetPath: Assets/StarterAssets/Readme.asset
-  uploadId: 691166
+version https://git-lfs.github.com/spec/v1
+oid sha256:45a209352f99a38900732f6c3aba35111a650964d3ac76713ded463d59079be0
+size 434

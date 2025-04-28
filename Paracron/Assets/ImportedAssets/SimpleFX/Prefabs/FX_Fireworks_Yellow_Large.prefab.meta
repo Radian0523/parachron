@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 0f75f6db4a318f54382e0c98b2226db8
-timeCreated: 1467155436
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 67834
-  packageName: Simple FX - Cartoon Particles
-  packageVersion: 1.2
-  assetPath: Assets/SimpleFX/Prefabs/FX_Fireworks_Yellow_Large.prefab
-  uploadId: 615759
+version https://git-lfs.github.com/spec/v1
+oid sha256:07d30e6267bae97182e49273cc1a26ac6748bd199ee9aac2bb744c9ad9827cf1
+size 407

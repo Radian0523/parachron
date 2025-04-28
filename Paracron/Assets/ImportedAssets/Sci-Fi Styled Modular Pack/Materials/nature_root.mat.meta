@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 00fc27719fc29924b9a34aab914dc83a
-timeCreated: 1486719800
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Materials/nature_root.mat
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0b7b33df83b3970963d825dfd9acaa2915f82bd74d7a53d45aedc1a20d56ced
+size 407

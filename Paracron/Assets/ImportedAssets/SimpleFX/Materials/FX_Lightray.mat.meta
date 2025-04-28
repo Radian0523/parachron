@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 7e0b60daf18511249a209d52beda2988
-timeCreated: 1465423084
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 67834
-  packageName: Simple FX - Cartoon Particles
-  packageVersion: 1.2
-  assetPath: Assets/SimpleFX/Materials/FX_Lightray.mat
-  uploadId: 615759
+version https://git-lfs.github.com/spec/v1
+oid sha256:22b5ac5994176093959b42dec4adf98ff968721c48297a719ae5f402b2fc8804
+size 392

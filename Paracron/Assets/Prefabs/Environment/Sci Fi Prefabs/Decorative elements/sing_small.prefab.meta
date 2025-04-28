@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: fc67be85f7a8a16448d922881910dcf0
-timeCreated: 1487075356
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/sing_small.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:e720e8a4f79594979aa5e346255915d8cf04920a94a2f3240174945d60cd3562
+size 427

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: a8db70ed00a022d4ca7f82df02fbc4fb
-timeCreated: 1487075419
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Extended Primitives/Sphere_16_extended.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:10d8e4e9365055e58ece131d1e1d347a0971ca6b01a1fd58bf4914ec9a8fa168
+size 435

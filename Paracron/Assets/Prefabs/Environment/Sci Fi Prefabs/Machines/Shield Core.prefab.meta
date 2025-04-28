@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 5f8552cfeac0c29428f4d3d1362bacae
-timeCreated: 1487065826
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/Shield Core.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:a709497ff5a174960cbc3e92294689f0683efff6e58efcc15c7d3f7d4bbe86b4
+size 417

@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: ad8dd36c434998049a54c8145760f647
-DefaultImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 253961
-  packageName: RPG Monster Buddy PBR Polyart
-  packageVersion: 1.0
-  assetPath: Assets/RPGMonsterBuddiesPBRPA/Scene/PBR.unity
-  uploadId: 581334
+version https://git-lfs.github.com/spec/v1
+oid sha256:1517b32972b94d4b1e71c49ee61c45b4e817613ba58092b12db2828db4f606b4
+size 356

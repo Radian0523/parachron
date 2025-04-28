@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: b640a38ee3c65bc45963bd2f2f5b867f
-timeCreated: 1486978501
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/Complete Windows/window_big_corner.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:71253f1309388fadad5b5861e76e21145c10efece4ea185ab6e25284682d688c
+size 439

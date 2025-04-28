@@ -1,19 +1,3 @@
-fileFormatVersion: 2
-guid: 4a300d010f57451488aa99000126fbd5
-MonoImporter:
-  externalObjects: {}
-  serializedVersion: 2
-  defaultReferences: []
-  executionOrder: 0
-  icon: {instanceID: 0}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 196525
-  packageName: Starter Assets - FirstPerson | Updates in new CharacterController
-    package
-  packageVersion: 1.3
-  assetPath: Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs
-  uploadId: 691166
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce2439019aeb27c2b9b6759b72fad4479f1bb4008e35290d317f2c278a649348
+size 541

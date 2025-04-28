@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 2d8643687b664580b4248d279407fb7c
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 253961
-  packageName: RPG Monster Buddy PBR Polyart
-  packageVersion: 1.0
-  assetPath: Assets/RPGMonsterBuddiesPBRPA/Material/PBR_Default.mat
-  uploadId: 581334
+version https://git-lfs.github.com/spec/v1
+oid sha256:7740b06c7cdb6b55ac7dbb39647ae24e133585105c1fd4db562a375217ce8e8e
+size 398

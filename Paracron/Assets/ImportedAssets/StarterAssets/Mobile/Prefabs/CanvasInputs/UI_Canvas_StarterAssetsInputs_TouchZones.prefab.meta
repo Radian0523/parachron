@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 7484ce6f8ca3d81408c606b5ae8b9ff3
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 196525
-  packageName: Starter Assets - FirstPerson | Updates in new CharacterController
-    package
-  packageVersion: 1.3
-  assetPath: Assets/StarterAssets/Mobile/Prefabs/CanvasInputs/UI_Canvas_StarterAssetsInputs_TouchZones.prefab
-  uploadId: 691166
+version https://git-lfs.github.com/spec/v1
+oid sha256:fdc5e25519747b755ba736c34882e27d102f7b440a20814e6ba24084995d57c3
+size 469

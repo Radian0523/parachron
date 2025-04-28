@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 4d7b74a926e2914419d3d0bda63ce844
-timeCreated: 1487315588
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/double_bed.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:6b4f5ea40b243935b0c07dc8fcee0b56c27abf98dfe681ff6db3b7d28d7833b5
+size 427

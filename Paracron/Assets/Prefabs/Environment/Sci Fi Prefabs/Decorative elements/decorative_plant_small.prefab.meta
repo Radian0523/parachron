@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: a4b101bd1cf6bc9478190c1aa0f3d52e
-timeCreated: 1486979049
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/decorative_plant_small.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:da8ecd41faaeee042b6fe41b55db23c3480b2ec7368d5f27d94eda8d3d5a858b
+size 439

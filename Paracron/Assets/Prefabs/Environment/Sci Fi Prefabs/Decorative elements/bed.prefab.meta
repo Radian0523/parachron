@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 43d083e8215b4544594282d6c144d7ba
-timeCreated: 1487315574
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/bed.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d2e4fbd6e81adee041ac832b135bab05fddb14ec20d1751179869c539c7a83a
+size 420

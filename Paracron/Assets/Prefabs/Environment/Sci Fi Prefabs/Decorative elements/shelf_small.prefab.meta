@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 27b528ce18adf6f48bd23431f0fd8f26
-timeCreated: 1487075362
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/shelf_small.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:697dbf08fafe5b376675479cbd4f1cd472a4f5af9b09dd6a7e5c8b8d9609c4c0
+size 428

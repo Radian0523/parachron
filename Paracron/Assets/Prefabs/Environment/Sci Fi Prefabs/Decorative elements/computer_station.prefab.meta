@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 82c3b8fcabff82d4787f83e992e386df
-timeCreated: 1486799785
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/computer_station.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf5681573ea1e46e75a4e7e19620e45424fc3141b39ae54b2a52f6a1df25ea81
+size 433

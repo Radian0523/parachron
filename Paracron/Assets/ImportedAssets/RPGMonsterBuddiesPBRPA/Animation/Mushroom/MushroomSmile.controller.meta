@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 541b89bf3d364f31986cf3ca81475cc2
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 9100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 253961
-  packageName: RPG Monster Buddy PBR Polyart
-  packageVersion: 1.0
-  assetPath: Assets/RPGMonsterBuddiesPBRPA/Animation/Mushroom/MushroomSmile.controller
-  uploadId: 581334
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf20431ae8c91c709ad00b8dfef22ea8b9f2d6645b113a593488785cd40928bf
+size 417

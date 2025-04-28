@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 1948dd3bac0047c4ba0374ece525fdb6
-timeCreated: 1486764362
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Animations/door_3_closed.anim
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:623e4bff11512d7bb07b43e3f3b1ff05f10cea32e5c5128901be8d35cacc1ae6
+size 411

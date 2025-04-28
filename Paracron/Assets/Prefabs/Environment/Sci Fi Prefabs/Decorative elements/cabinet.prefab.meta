@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: b3f6e169466f65a4aa48e83805d9e440
-timeCreated: 1487315611
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/cabinet.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c98af161a2430c6c2632da59843271a1954927b634543dd0fcb041a388faae0
+size 424

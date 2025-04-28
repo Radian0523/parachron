@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 790e191d50e6fe249900e78369ae7986
-timeCreated: 1486799299
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/pilot_seat.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:0dcaea5fd335a6e8d288605c591f2f6e011da5a8b3e105d1e61200a20ec1576c
+size 427

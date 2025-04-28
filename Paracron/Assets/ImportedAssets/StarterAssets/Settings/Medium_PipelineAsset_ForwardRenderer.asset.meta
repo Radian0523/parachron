@@ -1,16 +1,3 @@
-fileFormatVersion: 2
-guid: 871a00306922d48e1872740163b0d74b
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 11400000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 196525
-  packageName: Starter Assets - FirstPerson | Updates in new CharacterController
-    package
-  packageVersion: 1.3
-  assetPath: Assets/StarterAssets/Settings/Medium_PipelineAsset_ForwardRenderer.asset
-  uploadId: 691166
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ba14dd3627de2a939b3f6bfcdff86f21dbea66b18cc879df00a68525b20bda7
+size 481

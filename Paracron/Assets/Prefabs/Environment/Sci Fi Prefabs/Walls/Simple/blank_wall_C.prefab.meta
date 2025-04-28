@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 8d76d7bf209da5b44a73507c804295d4
-timeCreated: 1487315544
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/blank_wall_C.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:aa09697997ca992e5db67063a22e603109f35e572691581b9cdf0b0129b96a3e
+size 422

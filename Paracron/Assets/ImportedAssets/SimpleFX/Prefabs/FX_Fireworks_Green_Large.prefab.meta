@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 26d069e6f78e6f8478e4dc0152bd6939
-timeCreated: 1467155436
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 67834
-  packageName: Simple FX - Cartoon Particles
-  packageVersion: 1.2
-  assetPath: Assets/SimpleFX/Prefabs/FX_Fireworks_Green_Large.prefab
-  uploadId: 615759
+version https://git-lfs.github.com/spec/v1
+oid sha256:8bad28761960f0405b870c9b1c983aa5e40cf2a12a6804f64b3c001f59698aa6
+size 406

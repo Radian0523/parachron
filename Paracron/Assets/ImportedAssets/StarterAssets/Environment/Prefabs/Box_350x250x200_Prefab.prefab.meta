@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 7b846d8f536f007498c941069487ce81
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 196525
-  packageName: Starter Assets - FirstPerson | Updates in new CharacterController
-    package
-  packageVersion: 1.3
-  assetPath: Assets/StarterAssets/Environment/Prefabs/Box_350x250x200_Prefab.prefab
-  uploadId: 691166
+version https://git-lfs.github.com/spec/v1
+oid sha256:12acf7a23ef9167eaf4617d805512c0395c282eef7ff1250729b2771abe147b9
+size 443

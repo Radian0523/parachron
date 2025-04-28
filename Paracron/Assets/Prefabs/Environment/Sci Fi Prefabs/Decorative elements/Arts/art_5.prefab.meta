@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: b1b2094e689c43d4ea4fd01f7c8b5849
-timeCreated: 1486827157
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Arts/art_5.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:f0420698a67d6e107034b8cb7a9126fcfc56b9376184c05f91d6f8e0241dba8b
+size 427

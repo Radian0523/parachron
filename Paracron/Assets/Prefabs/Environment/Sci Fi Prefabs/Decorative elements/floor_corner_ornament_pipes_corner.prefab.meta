@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: fe8bb31403053dd44ae7ac2396ff8fa4
-timeCreated: 1487315583
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/floor_corner_ornament_pipes_corner.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:6db9ce3b41af73723383dabbd6b952c9d3b79b24bcf05928a4d21fc898f7304c
+size 451

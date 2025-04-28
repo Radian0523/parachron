@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 0d37f80e5a9508346b0ec65e1917e053
-timeCreated: 1496248185
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 67834
-  packageName: Simple FX - Cartoon Particles
-  packageVersion: 1.2
-  assetPath: Assets/SimpleFX/Prefabs/FX_PoolSplash_02.prefab
-  uploadId: 615759
+version https://git-lfs.github.com/spec/v1
+oid sha256:8401d979c8214d850b90f1528ef4c68a2481ee5aec196cf442060baaf8bbc2b1
+size 398

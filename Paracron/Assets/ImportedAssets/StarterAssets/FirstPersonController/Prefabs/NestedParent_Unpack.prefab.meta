@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 035bf1ba97d19214580cfe6f5a29fdc3
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 196525
-  packageName: Starter Assets - FirstPerson | Updates in new CharacterController
-    package
-  packageVersion: 1.3
-  assetPath: Assets/StarterAssets/FirstPersonController/Prefabs/NestedParent_Unpack.prefab
-  uploadId: 691166
+version https://git-lfs.github.com/spec/v1
+oid sha256:83f3604e362ab0164c2052dd0e7841a2dbcf04ea050abe0677e948f0cd316bf8
+size 450

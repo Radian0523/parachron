@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 71c78677fdc08394da7fd716fb41a991
-timeCreated: 1486719800
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Materials/nature_ground.mat
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:91498a28293b7ffac4d0b7bcba9c62e47aceedf4f5197c3d2a45bf424253a95e
+size 409

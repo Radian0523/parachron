@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: d6ca041d3b582d94a8f2ad86f4b1e304
-timeCreated: 1487163507
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials/Snow.mat
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:640c207368912e624a79e50778399aadbf7525d38c7cc9ef3c2bb29b9ee74c1c
+size 415

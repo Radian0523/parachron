@@ -1,14 +1,3 @@
-fileFormatVersion: 2
-guid: 35f16650380449c78eeac51057eaff2a
-PrefabImporter:
-  externalObjects: {}
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 253961
-  packageName: RPG Monster Buddy PBR Polyart
-  packageVersion: 1.0
-  assetPath: Assets/RPGMonsterBuddiesPBRPA/Prefab/MushroomAngryPBR.prefab
-  uploadId: 581334
+version https://git-lfs.github.com/spec/v1
+oid sha256:57682f041de97c4ea05e07ced2644385978e2edfafcc18078b45c2563dc093d2
+size 370

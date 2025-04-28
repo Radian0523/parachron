@@ -1,11 +1,3 @@
-fileFormatVersion: 2
-guid: ab1112643ee572748b01dede71158272
-NativeFormatImporter:
-  userData: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 67834
-  packageName: Simple FX - Cartoon Particles
-  packageVersion: 1.2
-  assetPath: Assets/SimpleFX/Prefabs/FX_Smoke.prefab
-  uploadId: 615759
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c3f89d0401b0a60b6c53f72a12424072ea434ff5b252dcf124aaebfa2c4e410
+size 300

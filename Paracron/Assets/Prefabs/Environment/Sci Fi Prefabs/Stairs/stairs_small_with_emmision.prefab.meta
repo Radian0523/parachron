@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 8da4079fb873f6b458c21ed4e56da94b
-timeCreated: 1486799310
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Stairs/stairs_small_with_emmision.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:4fbe3889cbbc196f88dbea2cd937f471cffe5779c7ece0a0c4539bdebf2496b2
+size 430

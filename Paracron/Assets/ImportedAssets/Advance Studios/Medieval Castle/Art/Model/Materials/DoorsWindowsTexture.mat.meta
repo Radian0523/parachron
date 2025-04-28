@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 236df0a5ee228a642849d2fb6276bb84
-NativeFormatImporter:
-  externalObjects: {}
-  mainObjectFileID: 2100000
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 282498
-  packageName: Medieval Castle - Modular
-  packageVersion: 1.0
-  assetPath: Assets/Advance Studios/Medieval Castle/Art/Model/Materials/DoorsWindowsTexture.mat
-  uploadId: 657949
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0a9240b073261c8eaba869456b2c451c92933fba7eb62a6678f7d19abf7a300
+size 422

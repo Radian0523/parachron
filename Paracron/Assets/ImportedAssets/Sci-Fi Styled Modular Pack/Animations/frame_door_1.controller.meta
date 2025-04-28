@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 959f9ed79bf06c14ab58b6da6302cd84
-timeCreated: 1486797742
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Animations/frame_door_1.controller
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7a89fe87f11a4002e2e80bbdc856e649411813c7c5c01706b5b7b7fb452f230
+size 416

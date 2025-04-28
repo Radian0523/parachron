@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 7a9bced7715b2c047b5413e33bc60d5c
-timeCreated: 1469255638
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 67834
-  packageName: Simple FX - Cartoon Particles
-  packageVersion: 1.2
-  assetPath: Assets/SimpleFX/Materials/FX_Rubble.mat
-  uploadId: 615759
+version https://git-lfs.github.com/spec/v1
+oid sha256:609a96aea2f1da45d7091bc704bb2d60da43529b17e0d6f2ebb63a109423f3bb
+size 390

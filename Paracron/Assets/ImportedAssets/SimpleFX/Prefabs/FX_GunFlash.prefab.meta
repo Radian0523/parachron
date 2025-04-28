@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: b955daae02e019d45a8fb68cfd843784
-timeCreated: 1496248183
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 67834
-  packageName: Simple FX - Cartoon Particles
-  packageVersion: 1.2
-  assetPath: Assets/SimpleFX/Prefabs/FX_GunFlash.prefab
-  uploadId: 615759
+version https://git-lfs.github.com/spec/v1
+oid sha256:b60bd8f31ac6bac94d7ec9a6f4f9b016e74604ed0e436a147038833638cb5336
+size 393

@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: 2e1b886e9f18d9e43bf1d35ceab0b368
-timeCreated: 1487075396
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 82913
-  packageName: Sci-Fi Styled Modular Pack
-  packageVersion: 1.1
-  assetPath: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/big_screen.prefab
-  uploadId: 276156
+version https://git-lfs.github.com/spec/v1
+oid sha256:b865733cbf193d86dad54628ec159f61bdd41d8cb67fcab1d96fe5b87a6ce49a
+size 427
