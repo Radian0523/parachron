@@ -20,9 +20,8 @@ public class SpawnGate : MonoBehaviour
     {
         while (player)
         {
-            if (canSpawn) Instantiate(robotPrefab, spawnPoint.position, transform.rotation);
             yield return new WaitForSeconds(spwanTime);
+            if (canSpawn) Instantiate(robotPrefab, spawnPoint.position, transform.rotation);
         }
-
     }
 }

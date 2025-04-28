@@ -101,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aec37083a60c694bb12d0b42d42ab03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 30
   projectileHitVFX: {fileID: 3584204661001725410, guid: abb05ce0a90a49b469050a1c9b40cc66, type: 3}
 --- !u!135 &5766318414289250306
 SphereCollider:

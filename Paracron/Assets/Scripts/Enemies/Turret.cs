@@ -11,6 +11,9 @@ public class Turret : MonoBehaviour
     [SerializeField] int damageToPlayer = 2;
 
     PlayerHealth player;
+
+    public bool canSpawn = true;
+
     void Start()
     {
         player = FindFirstObjectByType<PlayerHealth>();
@@ -18,7 +21,8 @@ public class Turret : MonoBehaviour
     }
     void Update()
     {
-        turretHead.LookAt(playerTargetPoint);
+        if (canSpawn)
+            turretHead.LookAt(playerTargetPoint);
     }
 
     IEnumerator SpawnProjectileRoutine()
@@ -27,9 +31,12 @@ public class Turret : MonoBehaviour
         {
             yield return new WaitForSeconds(fireRate);
             // Instantiateと同時に、その生み出すもののスクリプトを得るという定石
-            Projectile newProjectile = Instantiate(projectilePrefab, projectileSpawnPoint.position, Quaternion.identity).GetComponent<Projectile>(); // 最後の引数はなんで？
-            newProjectile.transform.LookAt(playerTargetPoint);
-            newProjectile.Init(damageToPlayer);
+            if (canSpawn)
+            {
+                Projectile newProjectile = Instantiate(projectilePrefab, projectileSpawnPoint.position, Quaternion.identity).GetComponent<Projectile>(); // 最後の引数はなんで？
+                newProjectile.transform.LookAt(playerTargetPoint);
+                newProjectile.Init(damageToPlayer);
+            }
         }
     }
 }

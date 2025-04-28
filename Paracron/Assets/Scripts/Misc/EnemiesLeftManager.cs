@@ -4,6 +4,9 @@ public class EnemiesLeftManager : MonoBehaviour
 {
     [SerializeField] UIEnemiesLeftPresenter uiEnemiesLeftPresenter;
     int enemiesLeft = 0;
+
+    public int EnemiesLeft => enemiesLeft;
+
     public void AdjustEnemiesLeft(int amount)
     {
         enemiesLeft += amount;

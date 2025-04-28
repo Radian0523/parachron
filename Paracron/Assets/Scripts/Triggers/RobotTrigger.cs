@@ -3,24 +3,17 @@ using UnityEngine;
 
 public class RobotTrigger : BaseTrigger
 {
-    [SerializeField] List<Robot> robots;
+    [SerializeField] Robot[] robots;
 
     void Start()
     {
-        foreach (Robot robot in robots)
-        {
-            robot.OnStopChase();
-        }
+        RobotManager.SetRobotAgentEnabled(robots, false);
+
     }
 
     protected override void OnPlayerEnter(Collider other)
     {
-        foreach (Robot robot in robots)
-        {
-            if (!robot) continue;
-            if (!robot.gameObject) continue;
-            robot.OnStartChase();
-        }
+        RobotManager.SetRobotAgentEnabled(robots, true);
     }
 
     protected override void OnPlayerExit(Collider other)

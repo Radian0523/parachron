@@ -38,13 +38,9 @@ public class Robot : MonoBehaviour
         }
     }
 
-    public void OnStopChase()
+    public void SetAgentEnabled(bool newAgentState)
     {
-        agent.enabled = false;
+        agent.enabled = newAgentState;
     }
 
-    public void OnStartChase()
-    {
-        agent.enabled = true;
-    }
 }

@@ -51,6 +51,7 @@ MonoBehaviour:
   robotPrefab: {fileID: 8398603897042299677, guid: 38b7082ab2c1ecf44b2fd28dfa405c23, type: 3}
   spawnPoint: {fileID: 2274384793177719707}
   spwanTime: 5
+  canSpawn: 1
 --- !u!114 &4833880832088623490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -64,6 +65,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   robotExplosionVFX: {fileID: 9030073202723525444, guid: 7c6257d21d295ba4ea559a012a6c758a, type: 3}
+  robotExplosionSE: {fileID: 0}
+  robotExplosionSEScale: 1
   startingHealth: 3
 --- !u!65 &8142474370813277318
 BoxCollider:
@@ -111,7 +114,7 @@ Transform:
   m_GameObject: {fileID: 6438303358790552123}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.01, z: 0}
+  m_LocalPosition: {x: 0, y: 0.01, z: 0.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
