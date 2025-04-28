@@ -16,6 +16,7 @@ namespace StarterAssets
 		public bool shoot;
 		public bool zoom;
 		public bool reload;
+		public bool withdraw;
 
 		[Header("Movement Settings")]
 		public bool analogMovement;
@@ -72,6 +73,11 @@ namespace StarterAssets
 		{
 			ReloadInput(value.isPressed);
 		}
+
+		public void OnWithdraw(InputValue value)
+		{
+			WithdrawInput(value.isPressed);
+		}
 #endif
 
 
@@ -113,6 +119,11 @@ namespace StarterAssets
 		public void ReloadInput(bool newReloadState)
 		{
 			reload = newReloadState;
+		}
+
+		public void WithdrawInput(bool newWithdrawState)
+		{
+			withdraw = newWithdrawState;
 		}
 
 		private void OnApplicationFocus(bool hasFocus)
