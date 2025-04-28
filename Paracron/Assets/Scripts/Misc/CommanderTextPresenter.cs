@@ -18,6 +18,7 @@ public class CommanderTextPresenter : MonoBehaviour
     [SerializeField] DestroyableWall destroyableWall;
     [SerializeField] EnemiesLeftManager enemiesLeftManager;
     [SerializeField] int enemiesLeftMaxNum = 40;
+    [SerializeField] UIEmergencyWthdrawPresenter uIEmergencyWthdrawPresenter;
 
 
     // CommanderTextState currentState = CommanderTextState.FirstContact;
@@ -123,6 +124,12 @@ public class CommanderTextPresenter : MonoBehaviour
             commanderText.text = textList[nextTextIndex];
             nextTextIndex++;
             timer = 0;
+        }
+
+        if (textList.Length <= nextTextIndex)
+        {
+            uIEmergencyWthdrawPresenter.ContainerSetActive(true);
+            nextTextIndex++;
         }
     }
 
